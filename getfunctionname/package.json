@@ -1,6 +1,6 @@
 {
   "name": "getfunctionname",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Get the name of a function",
   "main": "index.js",
   "scripts": {
