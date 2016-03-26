@@ -15,6 +15,7 @@ getFunctionName(function someFunction () { }); // 'someFunction'
 getFunctionName(function ANOTHER_FUNCTION () { }); // 'ANOTHER_FUNCTION'
 
 getFunctionName(() => { }); // 'anonymous'
+getFunctionName(function () { }); // 'anonymous'
 ```
 
 ## License
