@@ -19,3 +19,10 @@ test('it returns \'anonymous\' for a lambda function', t => {
         'anonymous'
     );
 });
+
+test('it returns \'anonymous\' for an unnamed function', t => {
+    t.assert.equal(
+        getFunctionName(function () { }),
+        'anonymous'
+    );
+});
