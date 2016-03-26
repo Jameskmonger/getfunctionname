@@ -13,6 +13,8 @@ var getFunctionName = require('getfunctionname');
 
 getFunctionName(function someFunction () { }); // 'someFunction'
 getFunctionName(function ANOTHER_FUNCTION () { }); // 'ANOTHER_FUNCTION'
+
+getFunctionName(() => { }); // 'anonymous'
 ```
 
 ## License
