@@ -12,3 +12,10 @@ test('it returns the correct function name for a function', (t, expected, func) 
     ['someOtherFunction', function someOtherFunction() { }],
     ['A_FUNCTION_IN_CAPITALS', function A_FUNCTION_IN_CAPITALS() { }]
 ]);
+
+test('it returns \'anonymous\' for a lambda function', t => {
+    t.assert.equal(
+        getFunctionName(() => {}),
+        'anonymous'
+    );
+});
