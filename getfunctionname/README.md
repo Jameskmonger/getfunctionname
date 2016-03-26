@@ -6,6 +6,15 @@ Get the readable name of a function.
 
     $ npm install getfunctionname
 
+## Usage
+
+```javascript
+var getFunctionName = require('getfunctionname');
+
+getFunctionName(function someFunction () { }); // 'someFunction'
+getFunctionName(function ANOTHER_FUNCTION () { }); // 'ANOTHER_FUNCTION'
+```
+
 ## License
 
 [MIT](LICENSE)
