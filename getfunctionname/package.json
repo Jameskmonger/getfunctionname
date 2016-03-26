@@ -9,7 +9,6 @@
   "author": "James Monger <jameskmonger@hotmail.co.uk> (http://jamesmonger.com)",
   "license": "MIT",
   "devDependencies": {
-    "modulink": "^1.1.0",
     "modunit": "^0.1.3"
   }
 }
